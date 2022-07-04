@@ -1,0 +1,199 @@
+/*
+#htmlpicdark {
+  height: 100px;
+  width: 100px;
+}
+  #csspicdark {
+  height: 100px;
+  width: 70px;
+}
+  #linuxpicdark {
+      height: 100px;
+      width: 100px;
+  }
+  #termpicdark {
+  height:100px;
+  width:100px;
+  }
+  */
+
+@media (min-width: 771px) {
+
+    .c {
+    height:500px;
+    width:1000px;
+    }
+    .c1 {
+        display:none;
+    }
+    #c4 {
+      height:250px;
+      width:350px;
+    }
+}
+
+
+@media (max-width: 770px) {
+    .c {
+    display:none;
+    }
+    .c1 {
+        width:350px;
+        height: 350px;
+        margin-top:50px;
+        margin-right:auto;
+        margin-left:auto;
+        display:block;
+    }
+    .c2 {
+      margin-right:auto;
+      margin-left:auto;
+      display:block;
+      height:90%;
+      width:90%;  
+    }
+    #fin {
+      display:none;
+    }
+}
+
+#plate1 {
+    height:200px;
+    width:200px;
+}
+
+
+/*
+@-webkit-keyframes finFadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+   }
+   
+   @-moz-keyframes finFadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+   }
+   
+   @-o-keyframes finFadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+   }
+   
+   @keyframes finFadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+   }
+   
+   #fin {
+     position:relative;
+    height:350px;
+     width:350px;
+     margin:0 auto;
+     float:right;
+     margin-right:auto;
+     margin-left:auto;
+     margin-top: -400px;
+   }
+   #fin img {
+     position:absolute;
+   }
+   
+   #fin img {
+     -webkit-animation-name: finFadeInOut;
+     -webkit-animation-timing-function: ease-in-out;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-duration: 16s;
+   
+     -moz-animation-name: finFadeInOut;
+     -moz-animation-timing-function: ease-in-out;
+     -moz-animation-iteration-count: infinite;
+     -moz-animation-duration: 16s;
+   
+     -o-animation-name: finFadeInOut;
+     -o-animation-timing-function: ease-in-out;
+     -o-animation-iteration-count: infinite;
+     -o-animation-duration: 16s;
+   
+     animation-name: finFadeInOut;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+     animation-duration: 16s;
+   }
+   #fin img:nth-of-type(1) {
+     -webkit-animation-delay: 12s;
+     -moz-animation-delay: 12s;
+     -o-animation-delay: 12s;
+     animation-delay: 12s;
+   }
+   #fin img:nth-of-type(2) {
+     -webkit-animation-delay: 8s;
+     -moz-animation-delay: 8s;
+     -o-animation-delay: 8s;
+     animation-delay: 8s;
+   }
+   #fin img:nth-of-type(3) {
+     -webkit-animation-delay: 4s;
+     -moz-animation-delay: 4s;
+     -o-animation-delay: 4s;
+     animation-delay: 4s;
+   }
+   #fin img:nth-of-type(4) {
+     -webkit-animation-delay: 0;
+     -moz-animation-delay: 0;
+     -o-animation-delay: 0;
+     animation-delay: 0;
+   }
+*/
+
