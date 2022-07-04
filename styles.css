@@ -122,7 +122,7 @@ nav li {
 	border-radius: 25px;
 }
 
-
+/*
 .multicolortxt {
 	background-image: linear-gradient(to right, #fff, #FF1744);
 	-webkit-background-clip:
@@ -131,7 +131,7 @@ nav li {
 	background-clip: text;
 	color: transparent;
 	background-color: #FF8F00;
-}
+} */
 .colortxt {
 	color:#f7fbfb;
 	text-shadow: 1px 1px 4px #000000;
