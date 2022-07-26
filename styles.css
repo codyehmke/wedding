@@ -233,6 +233,7 @@ a:link {
 		text-align: center;
 		background: #D6DBDF;
 		margin-top: -50px;
+		width: auto;
 	}
 	nav ul {
 		text-align: center;
@@ -245,6 +246,9 @@ a:link {
 	body {
 		background: #f8f9f9;
 		color: #f7f7f7;
+	}
+	.foot{
+		width: auto;
 	}
 	.titlename {
 		font-size: 40px;
