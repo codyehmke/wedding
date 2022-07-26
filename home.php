@@ -1,3 +1,9 @@
+<?php
+session_start();
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -11,23 +17,9 @@
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 	</head>
 <body>
-	<div class="myheader">
-		<header>
-			<section class="titlename">
-				<h1 style="font-family:caveat">Cody & Grace's Wedding</h1>
-			</section>
-			<!--
-			<nav>
-				<ul>
-					<li><a href=schedule.html class="colortxt">Schedule</a></li>
-					<li><a href=weddingparty.html class="colortxt">Wedding Party</a></li>
-					<li><a href=registry.html class="colortxt">Registry</a></li>
-					<li><a href=faq.html class="colortxt">FAQ's</a></li>
-				</ul>
-			</nav>
-		-->
-		</header>
-	</div>
+<?php
+require_once("header.php");
+?>
 <div>
 	<img src="img/us7.jpg" class="us7">
 </div>
@@ -67,22 +59,10 @@
 		</div>
 	</div>
 </div>
-<div class="secondbase">
-	<div class="rsvp-form">
-			<h1 class="formtitle">RSVP to our wedding!</h1>
-		<form class="form" action="">
-			<label class="form-label" for="yourname">Your first and last name</label>
-			<input class="form-text" id="yourname" name="yourname">
-			<br>
-			<label class="form-label" for="attendees">Additional attendees</label>
-			<input class="form-text" id="attendees" name="attendees">
-			<br>
-			<button class="button" style="color:aliceblue">Accept invitation</button>
-			<a href="#"></a>
-			<button class="button" style="color:aliceblue">Wont be able to make it</button>
-			<a href="#"></a>
-		</form>	
-	</div>
+
+<?php
+require_once("footer.php");
+?>
 
 </div>
 <footer class="foot">
