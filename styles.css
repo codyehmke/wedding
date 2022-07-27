@@ -171,6 +171,34 @@ a:link {
 	margin: auto;
 	padding-bottom: 10px;
 }
+.partyitem {
+	margin-top:100px;
+	background-color: #ffffff;
+	color: #2D3B41;
+	padding: 5px;
+	position: relative;
+	width: auto;
+	box-shadow: 1px -1px 10px #E8E9E9;
+	width: 350px;
+	margin: auto;
+	padding-bottom: 10px;
+	box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+}
+.regitem {
+	margin-top:100px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	font-family: 'quicksand';
+	color:#00405C;
+	padding: 5px;
+	position: relative;
+	width: auto;
+	box-shadow: 1px -1px 10px #E8E9E9;
+	width: 400px;
+	margin: auto;
+	padding-bottom: 10px;
+	box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+}
 
 /*  ///// Desktop View ///// */
 @media (min-width: 781px) {
@@ -197,34 +225,8 @@ a:link {
 
 	.titletxt{color:#2D3B41;
 	}
-	.regitem {
-		margin-top:100px;
-		border-radius: 10px;
-		background-color: #ffffff;
-		font-family: 'quicksand';
-		color:#00405C;
-		padding: 5px;
-		position: relative;
-		width: auto;
-		box-shadow: 1px -1px 10px #E8E9E9;
-		width: 400px;
-		margin: auto;
-		padding-bottom: 10px;
-		box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
-}
-.partyitem {
-	margin-top:100px;
-	background-color: #ffffff;
-	color: #2D3B41;
-	padding: 5px;
-	position: relative;
-	width: auto;
-	box-shadow: 1px -1px 10px #E8E9E9;
-	width: 350px;
-	margin: auto;
-	padding-bottom: 10px;
-	box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
-}
+
+
 }
 
 /* ///// Mobile View ///// */
@@ -265,29 +267,11 @@ a:link {
 
 	/*  contact page */
 	.regitem {
-		margin-top:100px;
-		border-radius: 10px;
-		background-color: #ffffff;
-		font-family: 'quicksand';
-		color:#00405C;
-		padding: 5px;
-		position: relative;
-		box-shadow: 1px -1px 10px #E8E9E9;
-		width: 300;
-		margin: auto;
-		padding-bottom: 10px;
-		box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+		overflow: hidden;
 	}
 	.partyitem {
-		margin-top:100px;
-		background-color: #ffffff;
-		color: #2D3B41;
-		padding: auto;
-		width: 300px;
-		margin: auto;
-		align-items: center;
-		padding-bottom: 10px;
-		box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+		width: 300;
+		overflow: hidden;
 	}
 
 }
