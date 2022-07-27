@@ -270,10 +270,10 @@ a:link {
 	/*  contact page */
 	.regitem {
 		overflow: hidden;
-		display: inline-block;
+		max-width: 100%;
 	}
 	.partyitem {
-		display: inline-block;
+		max-width: 100%;
 		overflow: hidden;
 	}
 
