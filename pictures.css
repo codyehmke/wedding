@@ -37,6 +37,7 @@
   .partycontainer{
     padding: 10px;
     padding-block: 1rem;
+    overflow: hidden;
   }
   .grid{
     padding-block: 1rem;
