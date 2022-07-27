@@ -15,8 +15,8 @@
 body {
 	margin: 0;
 	text-align: center;
-	}
 
+}
   h2 {
 	font-weight: 100;
   }
@@ -249,6 +249,8 @@ a:link {
 		background: #f8f9f9;
 		color: #f7f7f7;
 	}
+
+
 	.foot{
 		width: auto;
 	}
@@ -268,9 +270,10 @@ a:link {
 	/*  contact page */
 	.regitem {
 		overflow: hidden;
+		display: inline-block;
 	}
 	.partyitem {
-		width: 300;
+		display: inline-block;
 		overflow: hidden;
 	}
 
