@@ -17,9 +17,7 @@ body {
 	text-align: center;
 		overflow: hidden;
 	}
-	* {
-		overflow:hidden;
-	}
+
   h2 {
 	font-weight: 100;
   }
