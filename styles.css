@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=lato')
-;
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand')
-;
-@import url('https://fonts.googleapis.com/css?family=shadows+into+light')
 ;
 @import url('https://fonts.googleapis.com/css?family=caveat')
 ;
@@ -24,9 +21,15 @@ body {
 header {
 	width: 100%;
 	padding: .5em 0;
-	background: #D6DBDF;
+	background: #ffffff;
 	margin-top: -40px;
 }
+.titlename{
+	font-size: 40px;
+	margin-top: 0px;
+	color: #D6DBDF;
+}
+/*   D6DBDF */
 nav ul {
 	margin: 0;
 	padding: 0;
@@ -36,7 +39,7 @@ nav li {
 	display: inline-block;
 	padding: 5px;
 	border: 10px;
-	background-color: #fff;
+	background-color: #D6DBDF;
 	border-radius: 5px;
 	font-family: 'quicksand';
 	font-weight: 500;
@@ -64,15 +67,7 @@ nav a{
 	color: #2d2d2d;
 	border-radius: 25px;
 }
-.thirdbase{
-	margin-top: 100px;
-	margin-bottom: 40px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	width:auto;
-	color:#2d2d2d;
-	background-color: #D6DBDF;
-}
+
 /*RSVP*/
 .rsvp-form{
 text-align: center;
@@ -113,10 +108,9 @@ margin: auto;
 	margin-top: -60px;
 	margin-bottom: 50px;
 }
-/*
-.button + * {
-	padding: 10px;
-} */
+.wedbody{
+	background-color: #E4FBFF ;
+}
 /*RSVP*/
 #infotitle {
 	font-size: 50px;
@@ -200,11 +194,6 @@ a:link {
 		margin-bottom: -70px;
 	}
 
-	.titlename{
-		font-size: 40px;
-		margin-top: 0px;
-		color: #f8f9f9;
-	}
 	body {
 		background: #f8f9f9;
 		color: #2D3B41;
@@ -226,13 +215,33 @@ a:link {
 		padding-bottom: 10px;
 		box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
 	}
+	.thirdbase{
+		margin-top: 100px;
+		margin-bottom: 40px;
+		margin-left: 20%;
+		margin-right: 20%;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border-radius: 25px;
+		color:#2d2d2d;
+		background-color: #D6DBDF;
+	}
+	.fourthbase {
+		margin-top: 100px;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: auto;
+		color: #2d2d2d;
+		border-radius: 25px;
+		background-color: #D6DBDF;
+	}
 }
 
 /* ///// Mobile View ///// */
 @media (max-width: 780px) {
 	header {
 		text-align: center;
-		background: #D6DBDF;
+		background: #ffffff;
 		margin-top: -50px;
 
 	}
@@ -249,14 +258,22 @@ a:link {
 		color: #f7f7f7;
 	}
 
-
+	.thirdbase{
+		margin-top: 100px;
+		margin-bottom: 40px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		color:#2d2d2d;
+		background-color: #D6DBDF;
+	}
+	.fourthbase {
+		margin-top: 100px;
+		width: auto;
+		color: #2d2d2d;
+		background-color: #D6DBDF;
+	}
 	.foot{
 		width: auto;
-	}
-	.titlename {
-		font-size: 40px;
-		margin-top:0px;
-		color: #f8f9f9;
 	}
 	.introtxt {
 		text-align: center;
